@@ -1,3 +1,3 @@
-test portfolio site
+portfolio site
 
-NOT LIVE
+Project suspended to learn more javascript
