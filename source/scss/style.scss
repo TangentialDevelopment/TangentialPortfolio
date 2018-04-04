@@ -16,6 +16,16 @@ p.disclaimer {
   font-size: 80%;
 }
 
+h1.title {
+  font-size: 110%;
+  text-align: center;
+}
+
+h2.subtitle {
+  font-size:80%;
+  text-align: left;
+}
+
 .text {
   color: $color5;
   font-family: $fontfamily-text;
@@ -23,6 +33,11 @@ p.disclaimer {
   padding: $padding-text;
   margin: $margin-text;
   -webkit-text-stroke: 1px $color1;
+}
+
+p {
+  font-size: 65%;
+  text-align: left;
 }
 
 .banner {
