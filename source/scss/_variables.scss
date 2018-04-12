@@ -6,14 +6,29 @@ $color3: #a1c6ea;
 $color4: #bbd1ea;
 $color5: #dae3e5;
 
+$text-highlight: 1px $color1;
+$disclaim: 80%;
+$ul-list-style: none;
+$ul-padding: 0;
+
 //blendmode
 $lighten-base: luminosity;
+
+//body
+$body-margin: auto;
+$body-width: 90%
+$body-padding: 10px;
+$body-textalign: center;
 
 //img
 $radius-image: 20px;
 $padding-image: 2px 4px;
 $width-img: 100%;
 $height-img: auto;
+
+$banner-width: 100%;
+$banner-display: flex;
+$banner-margin: 0;
 
 //text
 $fontfamily-text: 'Alegreya Sans SC', sans-serif;
@@ -22,20 +37,16 @@ $mixblend-text: color-dodge;
 $padding-text: 0;
 $margin-text: 0;
 
-// //namecard
-// $height-nameimg: auto;
-// $maxwidth-nameimg: 45px;
-// $padding-nameimg: 15px;
-// $radius-nameimg: 50%;
-//
-// $marginleft-namecard: 30px;
-// $maxwidth-namecard: 100px;
-// $boxshadow-namecard: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-// $radius-namecard:20px;
-// $textalign-namecard: center;
-
 $marginbottom-namecontent: 8px;
 $padding-namecontent: 0 16px;
+
+$h1-title-font: 110%;
+$h1-title-text-align: center;
+
+$h2-text-align: left;
+
+$p-font-size: 65%;
+$p-text-align: left;
 
 //navigation
 $font-nav: Georgia, "Trebuchet MS", Arial, sans-serif;
@@ -63,6 +74,11 @@ $fontweight-alink: bold;
 $fontweight-avisitied: lighter;
 $borderradius-aha: 20px;
 
+$hero-display: block;
+$hero-margin: 0;
+
+$a-textdecor: none;
+
 //mydivs
 $borderradius-mydiv: 20px;
 $bgattach-mydiv: fixed;
@@ -77,6 +93,10 @@ $blendmode-mydiv5: screen;
 $backgroundsize-mydiv1: 50%;
 $backgroundsize-mydiv2: 50%;
 $backgroundsize-mydivr: 50%;
+
+$mydiv-padding: 15px;
+$mydiv-margin: 5px;
+$mydiv-maxwidth: 100%;
 
 //wrapper
 $display-wrapper: flex;
@@ -152,3 +172,10 @@ $bordercolor-popuptexta: #555 transparent transparent;
 //table
 $margin-table: 0 auto;
 $border-table: 1px solid black;
+
+//block
+$block-textalign: center;
+$block-display: inline-block;
+
+$block-center-display: flex;
+$block-center-justify: center;

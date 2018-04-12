@@ -6,24 +6,24 @@ html {
 
 body {
   background-color:$color5;
-  margin: auto;
-  width: 90%;
-  padding: 10px;
-  text-align: center;
+  margin: $body-margin;
+  width: $body-width;
+  padding: $body-padding;
+  text-align: $body-textalign;
 }
 
 p.disclaimer {
-  font-size: 80%;
+  font-size: $disclaim;
 }
 
 h1.title {
-  font-size: 110%;
-  text-align: center;
+  font-size: $h1-title-font;
+  text-align: $h1-title-text-align;
 }
 
 h2.subtitle {
-  font-size:80%;
-  text-align: left;
+  font-size: $disclaim;
+  text-align: $h2-text-align;
 }
 
 .text {
@@ -32,28 +32,28 @@ h2.subtitle {
   font-size: $fontsize-text;
   padding: $padding-text;
   margin: $margin-text;
-  -webkit-text-stroke: 1px $color1;
+  -webkit-text-stroke: $text-highlight;
 }
 
 p {
-  font-size: 65%;
-  text-align: left;
+  font-size: $p-font-size;
+  text-align: $p-text-align;
 }
 
 .banner {
-  max-width: 100%;
-  display: flex;
-  margin-left: 0;
-  margin-right: 0;
+  max-width: $banner-width;
+  display: $banner-display;
+  margin-left: $banner-margin;
+  margin-right: $banner-magin;
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: $ul-list-style;
+  padding: $ul-padding;
 }
 
 .ul.navigation {
-  list-style-type: none;
+  list-style-type: $ul-list-style;
   margin: 0 auto;
   text-align: $alignmentul-nav;
   border-bottom: $borderbotul-nav;
@@ -73,9 +73,9 @@ li.second {
 }
 
 a.hero {
-  display: block;
-  margin-left: 0;
-  margin-right: 0;
+  display: $hero-display;
+  margin-left: $hero-margin;
+  margin-right: $hero-margin;
 }
 
 a:link {
@@ -115,41 +115,41 @@ a.current:visited {
   border-radius: $borderradius-mydiv;
   background-color: $color2;
   background-size: $backgroundsize-mydiv1;
-  padding: 15px;
-  margin: 5px;
-  max-width: 100%;
+  padding: $mydiv-padding;
+  margin: $mydiv-margin;
+  max-width: $mydiv-maxwidth;
 }
 
 .my-div2 {
   border-radius: $borderradius-mydiv;
   background-color: $color3;
   background-size: $backgroundsize-mydiv2;
-  padding: 15px;
-  margin: 5px;
-  max-width: 100%;
+  padding: $mydiv-padding;
+  margin: $mydiv-margin;
+  max-width: $mydiv-maxwidth;
 }
 
 .my-div3 {
   border-radius: $borderradius-mydiv;
   background-color: $color4;
   background-size: $backgroundsize-mydiv2;
-  padding: 15px;
-  margin: 5px;
-  max-width: 100%;
+  padding: $mydiv-padding;
+  margin: $mydiv-margin;
+  max-width: $mydiv-maxwidth;
 }
 
 .inline-block-center {
-  text-align: center;
+  text-align: $block-textalign;
 }
 
 .inline-block-center .fill-div {
-  display: inline-block;
-  text-align: center;
+  display: $block-display;
+  text-align: $block-textalign;
 }
 
 ul.block-center {
-  display: flex;
-  justify-content: center;
+  display: $block-center-display;
+  justify-content: $block-center-justify;
 }
 
 // .my-div4 {
@@ -186,7 +186,7 @@ ul.block-center {
 // }
 
 a.fill-div {
-  text-decoration: none;
+  text-decoration: $a-textdecor;
 }
 
 // //@import "compass/css3";
