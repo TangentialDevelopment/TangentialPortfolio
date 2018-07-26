@@ -1,3 +1,4 @@
-portfolio site
+portfolio site 1.0
+tools: Sass
 
-Project suspended to learn more javascript and update it to bootstrap
+Project suspended in favor of 2.0 release and security reasons
